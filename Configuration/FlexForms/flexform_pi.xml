@@ -1,0 +1,134 @@
+<T3DataStructure>
+	<meta>
+		<langDisable>1</langDisable>
+	</meta>
+	<sheets>
+		<general>
+			<ROOT>
+				<TCEforms>
+					<sheetTitle>LLL:EXT:ng_fastyoutube/Resources/Private/Language/locallang.xlf:flexform_general</sheetTitle>
+				</TCEforms>
+				<type>array</type>
+				<el>		
+					<settings.flexform.vidID>
+						<TCEforms>
+							<label>LLL:EXT:ng_fastyoutube/Resources/Private/Language/locallang.xlf:flexform_vidID</label>
+							<config>
+								<type>input</type>
+								<size>10</size>
+								<max>20</max>
+								<eval>trim,required</eval>
+							</config>
+						</TCEforms>
+					</settings.flexform.vidID>
+					<settings.flexform.playlistID>
+						<TCEforms>
+							<label>LLL:EXT:ng_fastyoutube/Resources/Private/Language/locallang.xlf:flexform_playlistID</label>
+							<config>
+								<type>input</type>
+								<size>30</size>
+								<max>50</max>
+								<eval>trim</eval>
+							</config>
+						</TCEforms>
+					</settings.flexform.playlistID>
+					<settings.flexform.width>
+						<TCEforms>
+							<label>LLL:EXT:ng_fastyoutube/Resources/Private/Language/locallang.xlf:flexform_width</label>
+							<config>
+								<type>input</type>
+								<size>3</size>
+								<max>4</max>
+								<eval>num,required</eval>
+							</config>
+						</TCEforms>
+					</settings.flexform.width>
+					<settings.flexform.height>
+						<TCEforms>
+							<label>LLL:EXT:ng_fastyoutube/Resources/Private/Language/locallang.xlf:flexform_height</label>
+							<config>
+								<type>input</type>
+								<size>3</size>
+								<max>4</max>
+								<eval>num,required</eval>
+							</config>
+						</TCEforms>
+					</settings.flexform.height>
+					<settings.flexform.video_quality>
+						<TCEforms>
+							<label>LLL:EXT:ng_fastyoutube/Resources/Private/Language/locallang.xlf:flexform_video_quality</label>
+							<config>
+								<type>select</type>
+								<items type="array">
+									<numIndex index="0" type="array">
+										<numIndex index="0">LLL:EXT:ng_fastyoutube/Resources/Private/Language/locallang.xlf:flexform_video_quality_item_0</numIndex>
+										<numIndex index="1"></numIndex>
+									</numIndex>
+									<numIndex index="1" type="array">
+										<numIndex index="0">LLL:EXT:ng_fastyoutube/Resources/Private/Language/locallang.xlf:flexform_video_quality_item_1</numIndex>
+										<numIndex index="1">small</numIndex>
+									</numIndex>
+									<numIndex index="2" type="array">
+										<numIndex index="0">LLL:EXT:ng_fastyoutube/Resources/Private/Language/locallang.xlf:flexform_video_quality_item_2</numIndex>
+										<numIndex index="1">medium</numIndex>
+									</numIndex>
+									<numIndex index="3" type="array">
+										<numIndex index="0">LLL:EXT:ng_fastyoutube/Resources/Private/Language/locallang.xlf:flexform_video_quality_item_3</numIndex>
+										<numIndex index="1">large</numIndex>
+									</numIndex>
+									<numIndex index="4" type="array">
+										<numIndex index="0">LLL:EXT:ng_fastyoutube/Resources/Private/Language/locallang.xlf:flexform_video_quality_item_4</numIndex>
+										<numIndex index="1">hd720</numIndex>
+									</numIndex>
+									<numIndex index="5" type="array">
+										<numIndex index="0">LLL:EXT:ng_fastyoutube/Resources/Private/Language/locallang.xlf:flexform_video_quality_item_5</numIndex>
+										<numIndex index="1">hd1080</numIndex>
+									</numIndex>
+									<numIndex index="6" type="array">
+										<numIndex index="0">LLL:EXT:ng_fastyoutube/Resources/Private/Language/locallang.xlf:flexform_video_quality_item_6</numIndex>
+										<numIndex index="1">hires</numIndex>
+									</numIndex>
+								</items>
+								<minitems>0</minitems>
+								<maxitems>1</maxitems>
+								<size>1</size>
+							</config>
+						</TCEforms>
+					</settings.flexform.video_quality>
+					<settings.flexform.hide_controls>
+						<TCEforms>
+							<label>LLL:EXT:ng_fastyoutube/Resources/Private/Language/locallang.xlf:flexform_hide_controls</label>
+							<config>
+								<type>check</type>
+							</config>
+						</TCEforms>
+					</settings.flexform.hide_controls>
+					<settings.flexform.disable_fullscreen>
+						<TCEforms>
+							<label>LLL:EXT:ng_fastyoutube/Resources/Private/Language/locallang.xlf:flexform_disable_fullscreen</label>
+							<config>
+								<type>check</type>
+							</config>
+						</TCEforms>
+					</settings.flexform.disable_fullscreen>
+					<settings.flexform.no_related_videos>
+						<TCEforms>
+							<label>LLL:EXT:ng_fastyoutube/Resources/Private/Language/locallang.xlf:flexform_no_related_videos</label>
+							<config>
+								<type>check</type>
+							</config>
+						</TCEforms>
+					</settings.flexform.no_related_videos>
+					<settings.flexform.disable_branding>
+						<TCEforms>
+							<label>LLL:EXT:ng_fastyoutube/Resources/Private/Language/locallang.xlf:flexform_disable_branding</label>
+							<config>
+								<type>check</type>
+							</config>
+						</TCEforms>
+					</settings.flexform.disable_branding>  
+				</el>
+			</ROOT>
+		</general>
+	</sheets>
+</T3DataStructure>

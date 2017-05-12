@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2017-05-08T16:03:25Z" product-name="ng_fastyoutube">
+		<header/>
+		<body>
+			<trans-unit id="flexform_general">
+				<source>General</source>
+			</trans-unit>
+			<trans-unit id="flexform_vidID">
+				<source>YouTube ID</source>
+			</trans-unit>
+			<trans-unit id="flexform_playlistID">
+				<source>Playlist ID</source>
+			</trans-unit>
+			<trans-unit id="flexform_width">
+				<source>Width</source>
+			</trans-unit>
+			<trans-unit id="flexform_height">
+				<source>Height</source>
+			</trans-unit>
+			<trans-unit id="flexform_video_quality">
+				<source>Video quality</source>
+			</trans-unit>
+			<trans-unit id="flexform_video_quality_item_0">
+				<source>Auto</source>
+			</trans-unit>
+			<trans-unit id="flexform_video_quality_item_1">
+				<source>Small (320x240)</source>
+			</trans-unit>
+			<trans-unit id="flexform_video_quality_item_2">
+				<source>Medium (640x360)</source>
+			</trans-unit>
+			<trans-unit id="flexform_video_quality_item_3">
+				<source>Large (853x480)</source>
+			</trans-unit>
+			<trans-unit id="flexform_video_quality_item_4">
+				<source>HD720 (1280x720)</source>
+			</trans-unit>
+			<trans-unit id="flexform_video_quality_item_5">
+				<source>HD1080 (1920x1080)</source>
+			</trans-unit>
+			<trans-unit id="flexform_video_quality_item_6">
+				<source>HiRes (>1920x1080)</source>
+			</trans-unit>
+			<trans-unit id="flexform_hide_controls">
+				<source>Hide controls</source>
+			</trans-unit>
+			<trans-unit id="flexform_disable_fullscreen">
+				<source>Disable fullscreen</source>
+			</trans-unit>
+			<trans-unit id="flexform_no_related_videos">
+				<source>No related videos</source>
+			</trans-unit>
+			<trans-unit id="flexform_disable_branding">
+				<source>Hide YouTube logo</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

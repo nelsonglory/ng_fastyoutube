@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" target-language="de" datatype="plaintext" original="messages" date="2017-05-08T16:03:25Z" product-name="ng_fastyoutube">
+		<header/>
+		<body>
+			<trans-unit id="flexform_general">
+				<source>Configuration</source>
+				<target>Konfiguration</target>
+			</trans-unit>
+			<trans-unit id="flexform_vidID">
+				<source>YouTube ID</source>
+				<target>YouTube ID</target>
+			</trans-unit>
+			<trans-unit id="flexform_playlistID">
+				<source>Playlist ID</source>
+				<target>Wiedergabelisten ID</target>
+			</trans-unit>
+			<trans-unit id="flexform_width">
+				<source>Width</source>
+				<target>Breite</target>
+			</trans-unit>
+			<trans-unit id="flexform_height">
+				<source>Height</source>
+				<target>Höhe</target>
+			</trans-unit>
+			<trans-unit id="flexform_video_quality">
+				<source>Video quality</source>
+				<target>Videoqualität</target>
+			</trans-unit>
+			<trans-unit id="flexform_video_quality_item_0">
+				<source>Auto</source>
+				<target>Automatisch</target>
+			</trans-unit>
+			<trans-unit id="flexform_video_quality_item_1">
+				<source>Small (320x240)</source>
+				<target>Gering (320x240)</target>
+			</trans-unit>
+			<trans-unit id="flexform_video_quality_item_2">
+				<source>Medium (640x360)</source>
+				<target>Mittel (320x240)</target>
+			</trans-unit>
+			<trans-unit id="flexform_video_quality_item_3">
+				<source>Large (853x480)</source>
+				<target>Hoch (320x240)</target>
+			</trans-unit>
+			<trans-unit id="flexform_video_quality_item_4">
+				<source>HD720 (1280x720)</source>
+				<target>HD720 (1280x720)</target>
+			</trans-unit>
+			<trans-unit id="flexform_video_quality_item_5">
+				<source>HD1080 (1920x1080)</source>
+				<target>HD1080 (1920x1080)</target>
+			</trans-unit>
+			<trans-unit id="flexform_video_quality_item_6">
+				<source>HiRes (>1920x1080)</source>
+				<target>HiRes (>1920x1080)</target>
+			</trans-unit>
+			<trans-unit id="flexform_hide_controls">
+				<source>Hide controls</source>
+				<target>Kontrollelemente verstecken</target>
+			</trans-unit>
+			<trans-unit id="flexform_disable_fullscreen">
+				<source>Disable fullscreen</source>
+				<target>Kein Vollbild</target>
+			</trans-unit>
+			<trans-unit id="flexform_no_related_videos">
+				<source>No related videos</source>
+				<target>Keine ähnlichen Videos anzeigen</target>
+			</trans-unit>
+			<trans-unit id="flexform_disable_branding">
+				<source>Hide YouTube logo</source>
+				<target>Verstecke YouTube Logo</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

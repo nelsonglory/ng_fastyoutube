@@ -1,0 +1,89 @@
+{
+    "modules": [
+        {
+            "config": {
+                "position": [
+                    566,
+                    310
+                ]
+            },
+            "name": "New Model Object",
+            "value": {
+                "actionGroup": {
+                    "_default0_list": false,
+                    "_default1_show": false,
+                    "_default2_new_create": false,
+                    "_default3_edit_update": false,
+                    "_default4_delete": false,
+                    "customActions": [
+                        "showElement"
+                    ]
+                },
+                "name": "VideoElement",
+                "objectsettings": {
+                    "addDeletedField": true,
+                    "addHiddenField": true,
+                    "addStarttimeEndtimeFields": true,
+                    "aggregateRoot": false,
+                    "categorizable": false,
+                    "description": "",
+                    "mapToTable": "",
+                    "parentClass": "",
+                    "sorting": false,
+                    "type": "Entity",
+                    "uid": "363074940590"
+                },
+                "propertyGroup": {
+                    "properties": []
+                },
+                "relationGroup": {
+                    "relations": []
+                }
+            }
+        }
+    ],
+    "properties": {
+        "backendModules": [],
+        "description": "Plugin um YouTube-Videos einzubinden und die Ladezeiten zu verringern, indem \u00fcber JavaScript der Player erst beim Anklicken geladen wird.",
+        "emConf": {
+            "category": "plugin",
+            "custom_category": "",
+            "dependsOn": "typo3 => 6.2\n",
+            "disableLocalization": false,
+            "disableVersioning": false,
+            "sourceLanguage": "en",
+            "state": "alpha",
+            "targetVersion": "6.2",
+            "version": "1.0.0"
+        },
+        "extensionKey": "ng_fastyoutube",
+        "name": "YouTubeVideo",
+        "originalExtensionKey": "ng_fastyoutube",
+        "persons": [
+            {
+                "company": "University of Education Freiburg",
+                "email": "roderick.braun@ph-freiburg.de",
+                "name": "Roderick Braun",
+                "role": "Developer"
+            }
+        ],
+        "plugins": [
+            {
+                "actions": {
+                    "controllerActionCombinations": "",
+                    "noncacheableActions": "",
+                    "switchableActions": ""
+                },
+                "key": "pi",
+                "name": "YouTubeVideo"
+            }
+        ],
+        "vendorName": "PHFR"
+    },
+    "wires": [],
+    "log": {
+        "last_modified": "2017-05-08 04:03",
+        "extension_builder_version": "6.2.0",
+        "be_user": "Admin (598)"
+    }
+}

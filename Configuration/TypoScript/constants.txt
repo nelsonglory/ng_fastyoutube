@@ -1,0 +1,15 @@
+
+plugin.tx_ngfastyoutube {
+	view {
+		# cat=plugin.tx_ngfastyoutube/file; type=string; label=Path to template root (FE)
+		templateRootPath = EXT:ng_fastyoutube/Resources/Private/Templates/
+		# cat=plugin.tx_ngfastyoutube/file; type=string; label=Path to template partials (FE)
+		partialRootPath = EXT:ng_fastyoutube/Resources/Private/Partials/
+		# cat=plugin.tx_ngfastyoutube/file; type=string; label=Path to template layouts (FE)
+		layoutRootPath = EXT:ng_fastyoutube/Resources/Private/Layouts/
+	}
+	persistence {
+		# cat=plugin.tx_ngfastyoutube//a; type=string; label=Default storage PID
+		storagePid =
+	}
+}
