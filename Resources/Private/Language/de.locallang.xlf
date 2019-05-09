@@ -56,9 +56,33 @@
 				<target>HiRes (>1920x1080)</target>
 			</trans-unit>
 			<trans-unit id="flexform_max-pv-width">
-				<source>Max preview image width (px)</source>
-				<target>Max Vorschaubildgröße (px)</target>
-			</trans-unit>
+                                <source>Preview image quality</source>
+				<target>Qualität Vorschaubild</target>
+                        </trans-unit>
+                        <trans-unit id="flexform_max-pv-width_item_0">
+                                <source>Standard</source>
+				<target>Standard</target>
+                        </trans-unit>
+                        <trans-unit id="flexform_max-pv-width_item_1">
+                                <source>Highest (width: 1280px)</source>
+				<target>Höchste (Breite: 1280px)</target>
+                        </trans-unit>
+                        <trans-unit id="flexform_max-pv-width_item_2">
+                                <source>High (width: 640px)</source>
+				<target>Hoch (Breite: 640px)</target>
+                        </trans-unit>
+                        <trans-unit id="flexform_max-pv-width_item_3">
+                                <source>Medium (width: 480px)</source>
+				<target>Mittel (Breite: 480px)</target>
+                        </trans-unit>
+                        <trans-unit id="flexform_max-pv-width_item_4">
+                                <source>Low (width: 320px)</source>
+				<target>Niedrig (Breite: 320px)</target>
+                        </trans-unit>
+                        <trans-unit id="flexform_max-pv-width_item_5">
+                                <source>Lowest (width: 120px)</source>
+				<target>Niedrigste (Breite: 120px)</target>
+                        </trans-unit>
 			<trans-unit id="flexform_hide_controls">
 				<source>Hide controls</source>
 				<target>Kontrollelemente verstecken</target>

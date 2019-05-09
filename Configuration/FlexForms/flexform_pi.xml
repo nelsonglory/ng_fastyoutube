@@ -101,23 +101,27 @@
 								<type>select</type>
 								<items type="array">
 									<numIndex index="0" type="array">
-										<numIndex index="0">1280</numIndex>
+                                                                                <numIndex index="0">LLL:EXT:ng_fastyoutube/Resources/Private/Language/locallang.xlf:flexform_max-pv-width_item_0</numIndex>
+                                                                                <numIndex index="1">480</numIndex>
+                                                                        </numIndex>
+									<numIndex index="1" type="array">
+										<numIndex index="0">LLL:EXT:ng_fastyoutube/Resources/Private/Language/locallang.xlf:flexform_max-pv-width_item_1</numIndex>
 										<numIndex index="1">1280</numIndex>
 									</numIndex>
-									<numIndex index="1" type="array">
-										<numIndex index="0">640</numIndex>
+									<numIndex index="2" type="array">
+										<numIndex index="0">LLL:EXT:ng_fastyoutube/Resources/Private/Language/locallang.xlf:flexform_max-pv-width_item_2</numIndex>
 										<numIndex index="1">640</numIndex>
 									</numIndex>
-									<numIndex index="2" type="array">
-										<numIndex index="0">480</numIndex>
+									<numIndex index="3" type="array">
+										<numIndex index="0">LLL:EXT:ng_fastyoutube/Resources/Private/Language/locallang.xlf:flexform_max-pv-width_item_3</numIndex>
 										<numIndex index="1">480</numIndex>
 									</numIndex>
-									<numIndex index="3" type="array">
-										<numIndex index="0">320</numIndex>
+									<numIndex index="4" type="array">
+										<numIndex index="0">LLL:EXT:ng_fastyoutube/Resources/Private/Language/locallang.xlf:flexform_max-pv-width_item_4</numIndex>
 										<numIndex index="1">320</numIndex>
 									</numIndex>
-									<numIndex index="4" type="array">
-										<numIndex index="0">120</numIndex>
+									<numIndex index="5" type="array">
+										<numIndex index="0">LLL:EXT:ng_fastyoutube/Resources/Private/Language/locallang.xlf:flexform_max-pv-width_item_5</numIndex>
 										<numIndex index="1">120</numIndex>
 									</numIndex>
 								</items>

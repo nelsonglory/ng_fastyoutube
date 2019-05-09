@@ -43,8 +43,26 @@
 				<source>HiRes (>1920x1080)</source>
 			</trans-unit>
 			<trans-unit id="flexform_max-pv-width">
-				<source>Max preview image width (px)</source>
+				<source>Preview image quality</source>
 			</trans-unit>
+			<trans-unit id="flexform_max-pv-width_item_0">
+                                <source>Standard</source>
+                        </trans-unit>
+			<trans-unit id="flexform_max-pv-width_item_1">
+                                <source>Highest (width: 1280px)</source>
+                        </trans-unit>
+			<trans-unit id="flexform_max-pv-width_item_2">
+                                <source>High (width: 640px)</source>
+                        </trans-unit>
+			<trans-unit id="flexform_max-pv-width_item_3">
+                                <source>Medium (width: 480px)</source>
+                        </trans-unit>
+			<trans-unit id="flexform_max-pv-width_item_4">
+                                <source>Low (width: 320px)</source>
+                        </trans-unit>
+			<trans-unit id="flexform_max-pv-width_item_5">
+                                <source>Lowest (width: 120px)</source>
+                        </trans-unit>
 			<trans-unit id="flexform_hide_controls">
 				<source>Hide controls</source>
 			</trans-unit>

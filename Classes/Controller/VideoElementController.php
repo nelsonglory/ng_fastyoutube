@@ -71,7 +71,7 @@ class VideoElementController extends \TYPO3\CMS\Extbase\Mvc\Controller\ActionCon
 				'width' => $width,
 				'height' => $height,
 				'format' => $this->getConfigValue('video_format','string','4:3'),
-				'max-pv-width' => $this->getConfigValue('max-pv-width','string','1280'),
+				'max-pv-width' => $this->getConfigValue('max-pv-width','string','480'),
 				'data-parms' => $dataParms
 		));
 	}	
