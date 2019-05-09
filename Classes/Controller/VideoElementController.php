@@ -35,9 +35,8 @@ class VideoElementController extends \TYPO3\CMS\Extbase\Mvc\Controller\ActionCon
 	* init
 	*/
 	public function initializeAction() {
-		define(EXTKEY, $this->request->getControllerExtensionKey());
-		$this->response->addAdditionalHeaderData('<link rel="stylesheet" href="'.\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::siteRelPath(EXTKEY).'Resources/Public/css/default.css'.'" type="text/css" />');
-		$this->response->addAdditionalHeaderData('<script src="'.\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::siteRelPath(EXTKEY).'Resources/Public/JS/default.js" type="text/javascript"></script>');
+		$this->response->addAdditionalHeaderData('<link rel="stylesheet" href="'.\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::siteRelPath($this->request->getControllerExtensionKey()).'Resources/Public/css/default.css'.'" type="text/css" />');
+		$this->response->addAdditionalHeaderData('<script src="'.\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::siteRelPath($this->request->getControllerExtensionKey()).'Resources/Public/JS/default.js" type="text/javascript"></script>');
 	}
 	/**
 	 * action showElement
@@ -62,11 +61,17 @@ class VideoElementController extends \TYPO3\CMS\Extbase\Mvc\Controller\ActionCon
 			$paramArr[] = 'modestbranding=1';
 		// create data-params string
 		$dataParms = implode('&',$paramArr);
+		
+		// size
+		$width = $this->getConfigValue('width','int',0);
+		$height = $this->getConfigValue('height','int',0); 
 			
 		$this->view->assignMultiple(array(
 				'vidID' => $this->getConfigValue('vidID','string'),
-				'width' => $this->getConfigValue('width','int'),
-				'height' => $this->getConfigValue('height','int'),
+				'width' => $width,
+				'height' => $height,
+				'format' => $this->getConfigValue('video_format','string','4:3'),
+				'max-pv-width' => $this->getConfigValue('max-pv-width','string','1280'),
 				'data-parms' => $dataParms
 		));
 	}	

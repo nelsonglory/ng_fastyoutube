@@ -32,28 +32,27 @@
 							</config>
 						</TCEforms>
 					</settings.flexform.playlistID>
-					<settings.flexform.width>
+                    <settings.flexform.video_format>
 						<TCEforms>
-							<label>LLL:EXT:ng_fastyoutube/Resources/Private/Language/locallang.xlf:flexform_width</label>
+							<label>LLL:EXT:ng_fastyoutube/Resources/Private/Language/locallang.xlf:flexform_video_format</label>
 							<config>
-								<type>input</type>
-								<size>3</size>
-								<max>4</max>
-								<eval>num,required</eval>
+								<type>select</type>
+								<items type="array">
+									<numIndex index="0" type="array">
+										<numIndex index="0">4:3</numIndex>
+										<numIndex index="1">4:3</numIndex>
+									</numIndex>
+									<numIndex index="1" type="array">
+										<numIndex index="0">16:9</numIndex>
+										<numIndex index="1">16:9</numIndex>
+									</numIndex>
+								</items>
+								<minitems>0</minitems>
+								<maxitems>1</maxitems>
+								<size>1</size>
 							</config>
 						</TCEforms>
-					</settings.flexform.width>
-					<settings.flexform.height>
-						<TCEforms>
-							<label>LLL:EXT:ng_fastyoutube/Resources/Private/Language/locallang.xlf:flexform_height</label>
-							<config>
-								<type>input</type>
-								<size>3</size>
-								<max>4</max>
-								<eval>num,required</eval>
-							</config>
-						</TCEforms>
-					</settings.flexform.height>
+					</settings.flexform.video_format>
 					<settings.flexform.video_quality>
 						<TCEforms>
 							<label>LLL:EXT:ng_fastyoutube/Resources/Private/Language/locallang.xlf:flexform_video_quality</label>
@@ -95,6 +94,39 @@
 							</config>
 						</TCEforms>
 					</settings.flexform.video_quality>
+                    <settings.flexform.max-pv-width>
+                        <TCEforms>
+							<label>LLL:EXT:ng_fastyoutube/Resources/Private/Language/locallang.xlf:flexform_max-pv-width</label>
+							<config>
+								<type>select</type>
+								<items type="array">
+									<numIndex index="0" type="array">
+										<numIndex index="0">1280</numIndex>
+										<numIndex index="1">1280</numIndex>
+									</numIndex>
+									<numIndex index="1" type="array">
+										<numIndex index="0">640</numIndex>
+										<numIndex index="1">640</numIndex>
+									</numIndex>
+									<numIndex index="2" type="array">
+										<numIndex index="0">480</numIndex>
+										<numIndex index="1">480</numIndex>
+									</numIndex>
+									<numIndex index="3" type="array">
+										<numIndex index="0">320</numIndex>
+										<numIndex index="1">320</numIndex>
+									</numIndex>
+									<numIndex index="4" type="array">
+										<numIndex index="0">120</numIndex>
+										<numIndex index="1">120</numIndex>
+									</numIndex>
+								</items>
+								<minitems>0</minitems>
+								<maxitems>1</maxitems>
+								<size>1</size>
+							</config>
+						</TCEforms>
+                    </settings.flexform.max-pv-width>
 					<settings.flexform.hide_controls>
 						<TCEforms>
 							<label>LLL:EXT:ng_fastyoutube/Resources/Private/Language/locallang.xlf:flexform_hide_controls</label>
