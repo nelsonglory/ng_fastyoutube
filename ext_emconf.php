@@ -12,7 +12,7 @@
 
 $EM_CONF[$_EXTKEY] = array(
 	'title' => 'YouTubeVideo',
-	'description' => 'Plugin to display YouTube-videos faster on a page by displaying only a picture and loading the video-player first on demand.',
+	'description' => 'TYPO3 Plugin that displays YouTube-videos faster by loading the video-player on demand while displaying a cacheable preview picture.',
 	'category' => 'plugin',
 	'author' => 'Roderick Braun',
 	'author_email' => 'roderick.braun@ph-freiburg.de',
@@ -21,7 +21,7 @@ $EM_CONF[$_EXTKEY] = array(
 	'uploadfolder' => '0',
 	'createDirs' => '',
 	'clearCacheOnLoad' => 0,
-	'version' => '0.3.0',
+	'version' => '0.3.1',
 	'constraints' => array(
 		'depends' => array(
 			'typo3' => '8.7.0-9.5.99',
