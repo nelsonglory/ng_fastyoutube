@@ -11,18 +11,10 @@ System requirements
 Features
 --------
 
-- Video aspect ratio (16:9, 4:3, configurable)
-- Show related videos (on/off)
-- Fullscreen (on/off)
-- YouTube Logo (on/off)
-- Show video controls (on/off)
-
-Screenshots
------------
-
-- `Editing <Documentation/Screenshots/youtubevideo_edit.jpg>`_
-- `Page Module Preview <Documentation/Screenshots/youtubevideo_page_module.jpg>`_
-- `Front End <Documentation/Screenshots/youtubevideo_front_end.jpg>`_
+- Responsive
+- Configurable video aspect ratio (16:9, 4:3)
+- Single video or playlist
+- Several on/off switches (show related videos, fullscreen, YouTube logo, video controls)
 
 Installation
 ------------
