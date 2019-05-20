@@ -31,8 +31,10 @@ Sources
 -------
 
 -  `GitHub`_
+-  `Packagist`_
 -  `TER`_
 
 .. _GitHub: https://github.com/nelsonglory/ng_fastyoutube
+.. _Packagist: https://packagist.org/packages/phfr/ng_fastyoutube
 .. _TER: https://extensions.typo3.org/extension/ng_fastyoutube/
 
