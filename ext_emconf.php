@@ -11,7 +11,7 @@
  ***************************************************************/
 
 $EM_CONF[$_EXTKEY] = array(
-	'title' => 'YouTubeVideo',
+	'title' => 'Fast loading YouTube Video',
 	'description' => 'TYPO3 Plugin that displays YouTube-videos faster by loading the video-player on demand while displaying a cacheable preview picture.',
 	'category' => 'plugin',
 	'author' => 'Roderick Braun',
