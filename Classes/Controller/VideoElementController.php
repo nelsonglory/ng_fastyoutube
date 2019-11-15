@@ -35,8 +35,8 @@ class VideoElementController extends \TYPO3\CMS\Extbase\Mvc\Controller\ActionCon
 	* init
 	*/
 	public function initializeAction() {
-		$this->response->addAdditionalHeaderData('<link rel="stylesheet" href="'.\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::siteRelPath($this->request->getControllerExtensionKey()).'Resources/Public/css/default.css'.'" type="text/css" />');
-		$this->response->addAdditionalHeaderData('<script src="'.\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::siteRelPath($this->request->getControllerExtensionKey()).'Resources/Public/JS/default.js" type="text/javascript"></script>');
+		$this->response->addAdditionalHeaderData('<link rel="stylesheet" href="'.\TYPO3\CMS\Core\Utility\PathUtility::stripPathSitePrefix(\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::extPath($this->request->getControllerExtensionKey())).'Resources/Public/css/default.css'.'" type="text/css" />');
+		$this->response->addAdditionalHeaderData('<script src="'.\TYPO3\CMS\Core\Utility\PathUtility::stripPathSitePrefix(\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::extPath($this->request->getControllerExtensionKey())).'Resources/Public/JS/default.js" type="text/javascript"></script>');
 	}
 	/**
 	 * action showElement
