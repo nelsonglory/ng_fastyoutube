@@ -3,6 +3,13 @@
 	<file source-language="en" datatype="plaintext" original="messages" date="2017-05-08T16:03:25Z" product-name="ng_fastyoutube">
 		<header/>
 		<body>
+            <trans-unit id="tx_ng_fastyoutube_pi.name">
+				<source>Fast loading YouTube Video</source>
+			</trans-unit>
+			<trans-unit id="tx_ng_fastyoutube_pi.description">
+				<source>TYPO3 Plugin that displays YouTube-videos faster by loading the video-player on demand while displaying a cacheable preview picture.</source>
+			</trans-unit>
+			
 			<trans-unit id="flexform_general">
 				<source>General</source>
 			</trans-unit>

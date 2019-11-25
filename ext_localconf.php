@@ -2,21 +2,7 @@
 if (!defined('TYPO3_MODE')) {
 	die('Access denied.');
 }
-/*
-\TYPO3\CMS\Extbase\Utility\ExtensionUtility::configurePlugin(
-	'PHFR.' . $_EXTKEY,
-	'Pi',
-	array(
-		'VideoElement' => 'showElement',
-		
-	),
-	// non-cacheable actions
-	array(
-		'VideoElement' => '',
-		
-	)
-);
-*/
+
 call_user_func(
     function()
     {
@@ -40,8 +26,8 @@ call_user_func(
                 elements {
                     pi {
                         iconIdentifier = ng_fastyoutube-plugin-pi
-                        title = LLL:EXT:ng_fastyoutube/Resources/Private/Language/locallang_db.xlf:tx_ng_fastyoutube_pi.name
-                        description = LLL:EXT:ng_fastyoutube/Resources/Private/Language/locallang_db.xlf:tx_ng_fastyoutube_pi.description
+                        title = LLL:EXT:ng_fastyoutube/Resources/Private/Language/locallang.xlf:tx_ng_fastyoutube_pi.name
+                        description = LLL:EXT:ng_fastyoutube/Resources/Private/Language/locallang.xlf:tx_ng_fastyoutube_pi.description
                         tt_content_defValues {
                             CType = list
                             list_type = ng_fastyoutube_pi

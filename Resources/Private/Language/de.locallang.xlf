@@ -3,6 +3,15 @@
 	<file source-language="en" target-language="de" datatype="plaintext" original="messages" date="2017-05-08T16:03:25Z" product-name="ng_fastyoutube">
 		<header/>
 		<body>
+            <trans-unit id="tx_ng_fastyoutube_pi.name">
+                <source>Fast loading YouTube Video</source>
+				<target>Schnell ladendes YouTube Video</target>
+			</trans-unit>
+			<trans-unit id="tx_ng_fastyoutube_pi.description">
+                <source>TYPO3 Plugin that displays YouTube-videos faster by loading the video-player on demand while displaying a cacheable preview picture.</source>
+				<target>TYPO3 Plugin, welches die Ladezeiten von YouTube-Videos drastisch verbessert, indem nur ein Vorschaubildchen geladen wird und erst beim Anklicken der eigentliche Video Player.</target>
+			</trans-unit>
+		
 			<trans-unit id="flexform_general">
 				<source>Configuration</source>
 				<target>Konfiguration</target>
