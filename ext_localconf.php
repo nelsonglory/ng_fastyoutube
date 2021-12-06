@@ -8,7 +8,7 @@ call_user_func(
     {
 
         \TYPO3\CMS\Extbase\Utility\ExtensionUtility::configurePlugin(
-            'PHFR.Ng_fastyoutube',
+            'NgFastyoutube',
             'Pi',
             [
                 'VideoElement' => 'showElement',
@@ -30,7 +30,7 @@ call_user_func(
                         description = LLL:EXT:ng_fastyoutube/Resources/Private/Language/locallang.xlf:tx_ng_fastyoutube_pi.description
                         tt_content_defValues {
                             CType = list
-                            list_type = ng_fastyoutube_pi
+                            list_type = ngfastyoutube_pi
                         }
                     }
                 }
