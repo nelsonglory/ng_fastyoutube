@@ -37,7 +37,8 @@
 							<label>LLL:EXT:ng_fastyoutube/Resources/Private/Language/locallang.xlf:flexform_video_format</label>
 							<config>
 								<type>select</type>
-								<items type="array">
+								<renderType>selectSingle</renderType>
+								<items>
 									<numIndex index="0" type="array">
 										<numIndex index="0">4:3</numIndex>
 										<numIndex index="1">4:3</numIndex>
@@ -58,7 +59,8 @@
 							<label>LLL:EXT:ng_fastyoutube/Resources/Private/Language/locallang.xlf:flexform_video_quality</label>
 							<config>
 								<type>select</type>
-								<items type="array">
+								<renderType>selectSingle</renderType>
+								<items>
 									<numIndex index="0" type="array">
 										<numIndex index="0">LLL:EXT:ng_fastyoutube/Resources/Private/Language/locallang.xlf:flexform_video_quality_item_0</numIndex>
 										<numIndex index="1"></numIndex>
@@ -99,7 +101,8 @@
 							<label>LLL:EXT:ng_fastyoutube/Resources/Private/Language/locallang.xlf:flexform_max-pv-width</label>
 							<config>
 								<type>select</type>
-								<items type="array">
+								<renderType>selectSingle</renderType>
+								<items>
 									<numIndex index="0" type="array">
                                                                                 <numIndex index="0">LLL:EXT:ng_fastyoutube/Resources/Private/Language/locallang.xlf:flexform_max-pv-width_item_0</numIndex>
                                                                                 <numIndex index="1">480</numIndex>
