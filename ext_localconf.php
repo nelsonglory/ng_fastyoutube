@@ -8,7 +8,7 @@ call_user_func(
     {
 
         \TYPO3\CMS\Extbase\Utility\ExtensionUtility::configurePlugin(
-            'NgFastyoutube',
+            'PHFR.NgFastyoutube',
             'Pi',
             [
                 'VideoElement' => 'showElement',
