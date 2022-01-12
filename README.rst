@@ -6,7 +6,7 @@ YouTube Video Plugin (ng_fastyoutube)
 System requirements
 -------------------
 
-- TYPO3 8.7 LTS, TYPO3 9.5 LTS
+- TYPO3 8.7 LTS, TYPO3 9.5 LTS, TYPO3 10.4 LTS
 
 Features
 --------
