@@ -9,3 +9,10 @@ $GLOBALS['TCA']['tt_content']['types']['list']['subtypes_addlist'][$pluginSignat
     // Flexform configuration schema file
     'FILE:EXT:ng_fastyoutube/Configuration/FlexForms/flexform_pi.xml'
     );
+
+\TYPO3\CMS\Extbase\Utility\ExtensionUtility::registerPlugin
+(
+    'PHFR.NgFastyoutube',
+    'Pi',
+    'YouTubeVideo'
+    );
