@@ -6,4 +6,5 @@
 		- Added composer.json
 2021-12-06
 	* 0.4.0 Beta:
-		- Vesion compatible with TYPO3 10.4 LTS
+		- Dropped 8.7 compatibility
+		- Version now compatible to TYPO3 10.4 LTS
