@@ -23,7 +23,6 @@
 		}
 	},
 	"replace" : {
-		"phfr/ng_fastyoutube" : "self.version",
 		"typo3-ter/ng_fastyoutube" : "self.version"
 	},
 	"extra" : {
