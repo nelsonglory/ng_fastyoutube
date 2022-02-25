@@ -1,5 +1,5 @@
 {
-	"name" : "phfr/ng_fastyoutube",
+	"name" : "phfr/ng-fastyoutube",
 	"type" : "typo3-cms-extension",
 	"description" : "TYPO3 Plugin that displays YouTube-videos faster by loading the video-player on demand while displaying a cacheable preview picture.",
 	"homepage" : "https://github.com/nelsonglory/ng_fastyoutube",
