@@ -117,8 +117,8 @@
 				<target>Ändere DSE Aussehen</target>
 			</trans-unit>
 			<trans-unit id="flexform_privacy_statement_text">
-				<source>By clicking on the video, you agree to the data processing by YouTube.</source>
-				<target>Mit Klick auf das Video, stimmen Sie der Datenverarbeitung durch YouTube zu.</target>
+				<source>By clicking on the video you agree to the data processing by YouTube.</source>
+				<target>Mit Klick auf das Video stimmen Sie der Datenverarbeitung durch YouTube zu.</target>
 			</trans-unit>
 			<trans-unit id="flexform_privacy_statement_color">
 				<source>PS font color</source>

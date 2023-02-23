@@ -89,7 +89,7 @@
 				<source>Change PS appearence</source>
 			</trans-unit>
 			<trans-unit id="flexform_privacy_statement_text">
-				<source>By clicking on the video, you agree to the data processing by YouTube.</source>
+				<source>By clicking on the video you agree to the data processing by YouTube.</source>
 			</trans-unit>
 			<trans-unit id="flexform_privacy_statement_color">
 				<source>PS font color</source>
