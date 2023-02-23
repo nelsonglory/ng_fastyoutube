@@ -70,9 +70,13 @@ class VideoElementController extends \TYPO3\CMS\Extbase\Mvc\Controller\ActionCon
 				'vidID' => $this->getConfigValue('vidID','string'),
 				'width' => $width,
 				'height' => $height,
-				'format' => $this->getConfigValue('video_format','string','4:3'),
+				'format' => $this->getConfigValue('video_format','string','16:9'),
 				'max-pv-width' => $this->getConfigValue('max-pv-width','string','480'),
-				'data-parms' => $dataParms
+				'data-parms' => $dataParms,
+                'dspl_priv_statement' => $this->getConfigValue('display_privacy_statement','int',0),
+                'priv_statement' => $this->translate('flexform_privacy_statement_text'),
+                'priv_statement_color' => $this->getConfigValue('privacy_statement_color','string','#FFFFFF'),
+                'priv_statement_bg_color' => $this->getConfigValue('privacy_statement_bg_color','string','#324b8c')
 		));
 	}	
 	/**
@@ -83,7 +87,7 @@ class VideoElementController extends \TYPO3\CMS\Extbase\Mvc\Controller\ActionCon
 	 * @param string $defaultValue
 	 * @return string
 	 */
-	public function getConfigValue($configVar,$type='string',$defaultValue='') {
+	private function getConfigValue($configVar,$type='string',$defaultValue='') {
 		// retrieve config values given by flexform with respect of types, fallback on typoscript values or default
 		$configValue = $this->settings['flexform'][$configVar] ? $this->settings['flexform'][$configVar] : $this->settings[$configVar];
 		
@@ -92,5 +96,14 @@ class VideoElementController extends \TYPO3\CMS\Extbase\Mvc\Controller\ActionCon
 			return $configValue;
 		} else return $defaultValue;
 	}
-
+	/**
+	 * translate given key or return key if no translation is found
+	 *
+	 * @param string $key
+	 * @return string
+	 */
+	private function translate($key) {
+	    $translated =  \TYPO3\CMS\Extbase\Utility\LocalizationUtility::translate($key, $this->request->getControllerExtensionKey());
+	    return $translated ? $translated : $key;
+	}
 }

@@ -26,6 +26,14 @@
     filter: alpha(opacity=100);
 }
 
+.tx-ng-fastyoutube .privStatemnt {
+    position: absolute;
+	bottom: 0px;
+	z-index: 1;
+	padding: 0.5em;
+	width: 100%;
+}
+
 .tx-ng-fastyoutube .responsive-video {
     position: relative;
     padding-bottom: 56.25%;

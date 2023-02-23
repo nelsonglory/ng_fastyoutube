@@ -40,12 +40,12 @@
 								<renderType>selectSingle</renderType>
 								<items>
 									<numIndex index="0" type="array">
-										<numIndex index="0">4:3</numIndex>
-										<numIndex index="1">4:3</numIndex>
-									</numIndex>
-									<numIndex index="1" type="array">
 										<numIndex index="0">16:9</numIndex>
 										<numIndex index="1">16:9</numIndex>
+									</numIndex>
+									<numIndex index="1" type="array">
+										<numIndex index="0">4:3</numIndex>
+										<numIndex index="1">4:3</numIndex>
 									</numIndex>
 								</items>
 								<minitems>0</minitems>
@@ -104,9 +104,9 @@
 								<renderType>selectSingle</renderType>
 								<items>
 									<numIndex index="0" type="array">
-                                                                                <numIndex index="0">LLL:EXT:ng_fastyoutube/Resources/Private/Language/locallang.xlf:flexform_max-pv-width_item_0</numIndex>
-                                                                                <numIndex index="1">480</numIndex>
-                                                                        </numIndex>
+                                    	<numIndex index="0">LLL:EXT:ng_fastyoutube/Resources/Private/Language/locallang.xlf:flexform_max-pv-width_item_0</numIndex>
+                                    	<numIndex index="1">480</numIndex>
+                                    </numIndex>
 									<numIndex index="1" type="array">
 										<numIndex index="0">LLL:EXT:ng_fastyoutube/Resources/Private/Language/locallang.xlf:flexform_max-pv-width_item_1</numIndex>
 										<numIndex index="1">1280</numIndex>
@@ -165,7 +165,48 @@
 								<type>check</type>
 							</config>
 						</TCEforms>
-					</settings.flexform.disable_branding>  
+					</settings.flexform.disable_branding>
+					<settings.flexform.display_privacy_statement>
+						<TCEforms>
+							<label>LLL:EXT:ng_fastyoutube/Resources/Private/Language/locallang.xlf:flexform_display_privacy_statement</label>
+							<config>
+								<type>check</type>
+							</config>
+						</TCEforms>
+					</settings.flexform.display_privacy_statement>
+					<settings.flexform.change_privacy_statement>
+						<TCEforms>
+						    <onChange>reload</onChange>
+							<label>LLL:EXT:ng_fastyoutube/Resources/Private/Language/locallang.xlf:flexform_change_privacy_statement</label>
+							<config>
+								<type>check</type>
+							</config>
+						</TCEforms>
+					</settings.flexform.change_privacy_statement>
+					<settings.flexform.privacy_statement_color>
+						<TCEforms>
+							<label>LLL:EXT:ng_fastyoutube/Resources/Private/Language/locallang.xlf:flexform_privacy_statement_color</label>
+							<config>
+								<type>input</type>
+								<renderType>colorpicker</renderType>
+        						<size>10</size>
+        						<default>#ffffff</default>
+							</config>
+							<displayCond>FIELD:settings.flexform.change_privacy_statement:=:1</displayCond>
+						</TCEforms>
+					</settings.flexform.privacy_statement_color>
+					<settings.flexform.privacy_statement_bg_color>
+						<TCEforms>
+							<label>LLL:EXT:ng_fastyoutube/Resources/Private/Language/locallang.xlf:flexform_privacy_statement_bg_color</label>
+							<config>
+								<type>input</type>
+								<renderType>colorpicker</renderType>
+        						<size>10</size>
+        						<default>#324b8c</default>
+							</config>
+							<displayCond>FIELD:settings.flexform.change_privacy_statement:=:1</displayCond>
+						</TCEforms>
+					</settings.flexform.privacy_statement_bg_color>
 				</el>
 			</ROOT>
 		</general>

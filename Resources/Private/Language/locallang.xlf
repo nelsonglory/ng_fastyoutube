@@ -82,6 +82,21 @@
 			<trans-unit id="flexform_disable_branding">
 				<source>Hide YouTube logo</source>
 			</trans-unit>
+			<trans-unit id="flexform_display_privacy_statement">
+				<source>Display privacy statement (PS)</source>
+			</trans-unit>
+			<trans-unit id="flexform_change_privacy_statement">
+				<source>Change PS appearence</source>
+			</trans-unit>
+			<trans-unit id="flexform_privacy_statement_text">
+				<source>By clicking on the video, you agree to the data processing by YouTube.</source>
+			</trans-unit>
+			<trans-unit id="flexform_privacy_statement_color">
+				<source>PS font color</source>
+			</trans-unit>
+			<trans-unit id="flexform_privacy_statement_bg_color">
+				<source>PS background color</source>
+			</trans-unit>
 		</body>
 	</file>
 </xliff>

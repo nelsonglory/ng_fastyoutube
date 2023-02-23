@@ -7,5 +7,11 @@
      format="{format}"
      max-pv-width="{max-pv-width}"
      style="width: 100%">
+     <f:if condition="{dspl_priv_statement} == 1">
+       <div class="privStatemnt" 
+          style="color: {priv_statement_color};background-color: {priv_statement_bg_color}">
+          {priv_statement}
+       </div>
+     </f:if>
   </div>
 </f:section>
