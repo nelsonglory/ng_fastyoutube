@@ -28,10 +28,24 @@
 
 .tx-ng-fastyoutube .privStatemnt {
     position: absolute;
-	bottom: 0px;
-	z-index: 1;
-	padding: 0.5em;
+    display: none;
+	top: 0;
+	left: 0;
+	z-index: 2;
+	padding: 5%;
+	height: 100%;
 	width: 100%;
+	background-color: #d1d1d1;
+}
+.tx-ng-fastyoutube .stmntButtons {
+  	display:flex;
+  	justify-content:space-beween;
+  	margin-bottom: 1em;
+}
+
+.tx-ng-fastyoutube .stmntButtons button {
+	margin-right: 2em;
+	font-size: 1em;
 }
 
 .tx-ng-fastyoutube .responsive-video {

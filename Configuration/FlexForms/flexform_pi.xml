@@ -166,47 +166,14 @@
 							</config>
 						</TCEforms>
 					</settings.flexform.disable_branding>
-					<settings.flexform.display_privacy_statement>
+					<settings.flexform.disable_privacy_statement>
 						<TCEforms>
-							<label>LLL:EXT:ng_fastyoutube/Resources/Private/Language/locallang.xlf:flexform_display_privacy_statement</label>
+							<label>LLL:EXT:ng_fastyoutube/Resources/Private/Language/locallang.xlf:flexform_disable_privacy_statement</label>
 							<config>
 								<type>check</type>
 							</config>
 						</TCEforms>
-					</settings.flexform.display_privacy_statement>
-					<settings.flexform.change_privacy_statement>
-						<TCEforms>
-						    <onChange>reload</onChange>
-							<label>LLL:EXT:ng_fastyoutube/Resources/Private/Language/locallang.xlf:flexform_change_privacy_statement</label>
-							<config>
-								<type>check</type>
-							</config>
-						</TCEforms>
-					</settings.flexform.change_privacy_statement>
-					<settings.flexform.privacy_statement_color>
-						<TCEforms>
-							<label>LLL:EXT:ng_fastyoutube/Resources/Private/Language/locallang.xlf:flexform_privacy_statement_color</label>
-							<config>
-								<type>input</type>
-								<renderType>colorpicker</renderType>
-        						<size>10</size>
-        						<default>#ffffff</default>
-							</config>
-							<displayCond>FIELD:settings.flexform.change_privacy_statement:=:1</displayCond>
-						</TCEforms>
-					</settings.flexform.privacy_statement_color>
-					<settings.flexform.privacy_statement_bg_color>
-						<TCEforms>
-							<label>LLL:EXT:ng_fastyoutube/Resources/Private/Language/locallang.xlf:flexform_privacy_statement_bg_color</label>
-							<config>
-								<type>input</type>
-								<renderType>colorpicker</renderType>
-        						<size>10</size>
-        						<default>#324b8c</default>
-							</config>
-							<displayCond>FIELD:settings.flexform.change_privacy_statement:=:1</displayCond>
-						</TCEforms>
-					</settings.flexform.privacy_statement_bg_color>
+					</settings.flexform.disable_privacy_statement>
 				</el>
 			</ROOT>
 		</general>

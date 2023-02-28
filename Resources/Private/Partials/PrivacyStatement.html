@@ -1,0 +1,34 @@
+<div id="agreement_{vidID}" class="privStatemnt" 
+<f:if condition="{sysLanguageCode} == 'de'">
+	<f:then>
+		<p><strong>Bitte bestätigen Sie die Aktivierung dieses Videos.</strong></p>
+		<p>
+			Nach der Aktivierung werden Cookies gesetzt und Daten an YouTube (Google) übermittelt.<br>
+			<a href="https://www.google.de/intl/de/policies/privacy/" target="_blank" class="external" rel="noreferrer">Zur Datenschutzerklärung von Google</a>
+			<div class="form-group stmntButtons">
+          	<button id="agree_{vidID}" class="btn">Ja, Video anzeigen</button>
+          	<button id="disagree_{vidID}"" class="btn">Nein danke</button>
+          </div>
+          <div class="form-check">
+          	<input type="checkbox" class="form-check-input" onclick="ngfastyoutube.activateAllVideos(this)">
+          	<label class="form-check-label">Alle YouTube Videos auf dieser Webseite aktivieren</label>
+          </div>
+		</p>
+	</f:then>
+	<f:else>
+		<p><strong>Please confirm the activation of this video.</strong></p>
+		<p>
+			After activation, cookies are set and data is transmitted to YouTube (Google).<br>
+			<a href="https://www.google.de/intl/en/policies/privacy/" target="_blank" class="external" rel="noreferrer">To Google's privacy policy</a>
+			<div class="form-group stmntButtons">
+          	<button id="agree_{vidID}" class="btn">Yes, show video</button>
+          	<button id="disagree_{vidID}"" class="btn">No thanks</button>
+          </div>
+          <div class="form-check">
+          	<input type="checkbox" id="activate_all_{vidID}" class="form-check-input" onclick="ngfastyoutube.activateAllVideos(this)">
+          	<label for="activate_all_{vidID}" class="form-check-label">Activate all YouTube Videos on this website</label>
+          </div>
+		</p>
+	</f:else>
+</f:if>
+</div>

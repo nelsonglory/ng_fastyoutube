@@ -73,10 +73,8 @@ class VideoElementController extends \TYPO3\CMS\Extbase\Mvc\Controller\ActionCon
 				'format' => $this->getConfigValue('video_format','string','16:9'),
 				'max-pv-width' => $this->getConfigValue('max-pv-width','string','480'),
 				'data-parms' => $dataParms,
-                'dspl_priv_statement' => $this->getConfigValue('display_privacy_statement','int',0),
-                'priv_statement' => $this->translate('flexform_privacy_statement_text'),
-                'priv_statement_color' => $this->getConfigValue('privacy_statement_color','string','#FFFFFF'),
-                'priv_statement_bg_color' => $this->getConfigValue('privacy_statement_bg_color','string','#324b8c')
+                'disablePrivStmnt' => $this->getConfigValue('disable_privacy_statement','int',0),
+		        'sysLanguageCode' => $GLOBALS['TSFE']->language->getTwoLetterIsoCode(),
 		));
 	}	
 	/**

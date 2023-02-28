@@ -108,25 +108,9 @@
 				<source>Hide YouTube logo</source>
 				<target>Verstecke YouTube Logo</target>
 			</trans-unit>
-			<trans-unit id="flexform_display_privacy_statement">
-				<source>Display privacy statement (PS)</source>
-				<target>Zeige Datenschutzerklärung (DSE) an</target>
-			</trans-unit>
-			<trans-unit id="flexform_change_privacy_statement">
-				<source>Change PS appearence</source>
-				<target>Ändere DSE Aussehen</target>
-			</trans-unit>
-			<trans-unit id="flexform_privacy_statement_text">
-				<source>By clicking on the video you agree to the data processing by YouTube.</source>
-				<target>Mit Klick auf das Video stimmen Sie der Datenverarbeitung durch YouTube zu.</target>
-			</trans-unit>
-			<trans-unit id="flexform_privacy_statement_color">
-				<source>PS font color</source>
-				<target>DSE Schriftfarbe</target>
-			</trans-unit>
-			<trans-unit id="flexform_privacy_statement_bg_color">
-				<source>PS background color</source>
-				<target>DSE Hintergrundfarbe</target>
+			<trans-unit id="flexform_disable_privacy_statement">
+				<source>Do not display privacy statement</source>
+				<target>Datenschutzhinweis nicht anzeigen</target>
 			</trans-unit>
 		</body>
 	</file>
