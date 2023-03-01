@@ -32,20 +32,28 @@
 	top: 0;
 	left: 0;
 	z-index: 2;
-	padding: 5%;
+	padding: 3%;
 	height: 100%;
 	width: 100%;
-	background-color: #d1d1d1;
+	overflow-y: auto;
+	background-color: #f2f2f2;
 }
-.tx-ng-fastyoutube .stmntButtons {
+
+.tx-ng-fastyoutube .privStatemnt .stmntButtons {
   	display:flex;
   	justify-content:space-beween;
   	margin-bottom: 1em;
 }
+.tx-ng-fastyoutube .privStatemnt p {
+	font-size: inherit;
+}
 
-.tx-ng-fastyoutube .stmntButtons button {
+.tx-ng-fastyoutube .privStatemnt button {
 	margin-right: 2em;
-	font-size: 1em;
+	font-size: inherit;
+}
+.tx-ng-fastyoutube .privStatemnt input[type="checkbox"] {
+	font-size: inherit;
 }
 
 .tx-ng-fastyoutube .responsive-video {
