@@ -26,6 +26,9 @@ namespace PHFR\NgFastyoutube\Controller;
  *  This copyright notice MUST APPEAR in all copies of the script!
  ***************************************************************/
 
+use Psr\Http\Message\ResponseInterface;
+use TYPO3\CMS\Core\Utility\GeneralUtility;
+
 /**
  * VideoElementController
  */
@@ -35,15 +38,16 @@ class VideoElementController extends \TYPO3\CMS\Extbase\Mvc\Controller\ActionCon
 	* init
 	*/
 	public function initializeAction() {
-		$this->response->addAdditionalHeaderData('<link rel="stylesheet" href="'.\TYPO3\CMS\Core\Utility\PathUtility::stripPathSitePrefix(\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::extPath($this->request->getControllerExtensionKey())).'Resources/Public/css/default.css'.'" type="text/css" />');
-		$this->response->addAdditionalHeaderData('<script src="'.\TYPO3\CMS\Core\Utility\PathUtility::stripPathSitePrefix(\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::extPath($this->request->getControllerExtensionKey())).'Resources/Public/JS/default.js" type="text/javascript"></script>');
+	    $assetCollector = GeneralUtility::makeInstance(\TYPO3\CMS\Core\Page\AssetCollector::class);
+	    $assetCollector->addStyleSheet('defaultCSS', 'EXT:ng_fastyoutube/Resources/Public/css/default.css');
+	    $assetCollector->addJavaScript('defaultJS', 'EXT:ng_fastyoutube/Resources/Public/JS/default.js');
 	}
 	/**
 	 * action showElement
 	 *
 	 * @return void
 	 */
-	public function showElementAction() {
+	public function showElementAction(): ResponseInterface {
 		// set default showinfo=0
 		$paramArr[] = 'showinfo=0';
 		// get all parameters
@@ -76,6 +80,8 @@ class VideoElementController extends \TYPO3\CMS\Extbase\Mvc\Controller\ActionCon
                 'disablePrivStmnt' => $this->getConfigValue('disable_privacy_statement','int',0),
 		        'sysLanguageCode' => $GLOBALS['TSFE']->language->getTwoLetterIsoCode(),
 		));
+		
+		return $this->htmlResponse();
 	}	
 	/**
 	 * retrieve config value from flexform or typoscript
@@ -87,12 +93,16 @@ class VideoElementController extends \TYPO3\CMS\Extbase\Mvc\Controller\ActionCon
 	 */
 	private function getConfigValue($configVar,$type='string',$defaultValue='') {
 		// retrieve config values given by flexform with respect of types, fallback on typoscript values or default
-		$configValue = $this->settings['flexform'][$configVar] ? $this->settings['flexform'][$configVar] : $this->settings[$configVar];
-		
-		if ($configValue != NULL) {
-			settype($configValue,$type);
-			return $configValue;
-		} else return $defaultValue;
+		$configValue = null;
+	    if (isset($this->settings['flexform'][$configVar])) {
+	        $configValue = $this->settings['flexform'][$configVar];
+	    } elseif (isset($this->settings[$configVar])) {
+	        $configValue = $this->settings[$configVar];
+	    } else {
+	        $configValue = $defaultValue;
+	    }
+	    settype($configValue,$type);
+	    return $configValue;
 	}
 	/**
 	 * translate given key or return key if no translation is found

@@ -7,17 +7,18 @@ call_user_func(
     function()
     {
 
-        \TYPO3\CMS\Extbase\Utility\ExtensionUtility::configurePlugin(
-            'PHFR.NgFastyoutube',
-            'Pi',
+     \TYPO3\CMS\Extbase\Utility\ExtensionUtility::configurePlugin(
+        'PHFR.NgFastyoutube',
+        'Pi',
             [
-                'VideoElement' => 'showElement',
+                \PHFR\NgFastyoutube\Controller\VideoElementController::class => 'showElement',
             ],
             // non-cacheable actions
             [
-                'VideoElement' => '',
+                \PHFR\NgFastyoutube\Controller\VideoElementController::class => '',
             ]
-        );
+    );
+        
 
     // wizards
     \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addPageTSConfig(

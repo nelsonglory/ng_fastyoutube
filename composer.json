@@ -15,7 +15,7 @@
 		"issues" : "https://github.com/nelsonglory/ng_fastyoutube"
 	},
 	"require" : {
-		"typo3/cms-core" : "^9.5 || ^10.4 || ^11.5"
+		"typo3/cms-core" : "^10.4 || ^11.5"
 	},
 	"authors" : [{
 			"name" : "Roderick Braun",
