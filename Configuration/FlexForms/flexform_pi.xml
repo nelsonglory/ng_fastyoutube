@@ -105,7 +105,7 @@
 								<items>
 									<numIndex index="0" type="array">
                                     	<numIndex index="0">LLL:EXT:ng_fastyoutube/Resources/Private/Language/locallang.xlf:flexform_max-pv-width_item_0</numIndex>
-                                    	<numIndex index="1">480</numIndex>
+                                    	<numIndex index="1">640</numIndex>
                                     </numIndex>
 									<numIndex index="1" type="array">
 										<numIndex index="0">LLL:EXT:ng_fastyoutube/Resources/Private/Language/locallang.xlf:flexform_max-pv-width_item_1</numIndex>
