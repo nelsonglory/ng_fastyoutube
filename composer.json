@@ -29,5 +29,6 @@
 		"typo3/cms" : {
 			"extension-key" : "ng_fastyoutube"
 		}
-	}
+	},
+	"minimum-stability" : "stable"
 }

@@ -16,15 +16,15 @@ $EM_CONF[$_EXTKEY] = array(
 	'category' => 'plugin',
 	'author' => 'Roderick Braun',
 	'author_email' => 'roderick.braun@ph-freiburg.de',
-	'state' => 'beta',
+	'state' => 'stable',
 	'internal' => '',
 	'uploadfolder' => '0',
 	'createDirs' => '',
 	'clearCacheOnLoad' => 0,
-	'version' => '0.4.0',
+	'version' => '1.4.0',
 	'constraints' => array(
 		'depends' => array(
-			'typo3' => '9.5.0-10.4.99',
+			'typo3' => '9.5.0-11.5.99',
 		),
 		'conflicts' => array(
 		),
