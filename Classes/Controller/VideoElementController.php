@@ -94,9 +94,9 @@ class VideoElementController extends \TYPO3\CMS\Extbase\Mvc\Controller\ActionCon
 	private function getConfigValue($configVar,$type='string',$defaultValue='') {
 		// retrieve config values given by flexform with respect of types, fallback on typoscript values or default
 		$configValue = null;
-	    if (isset($this->settings['flexform'][$configVar])) {
+	    if (!empty($this->settings['flexform'][$configVar])) {
 	        $configValue = $this->settings['flexform'][$configVar];
-	    } elseif (isset($this->settings[$configVar])) {
+	    } elseif (!empty($this->settings[$configVar])) {
 	        $configValue = $this->settings[$configVar];
 	    } else {
 	        $configValue = $defaultValue;
