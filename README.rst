@@ -34,19 +34,19 @@ Configuration
 Configuration can be done via the plugin-tab or TSconfig
 
 **TSconfig-Example:**
-```
 plugin.tx_ngfastyoutube {
     settings {
     	display_privacy_statement = 1
      }
 }
-```
 This setting disables the DSGVO compliant two-click solution.
 
 ***List of available properties:***
 
-| Property | Description | Default |
-| -------- | ----------- | ------- |
+| First Header  | Second Header |
+| ------------- | ------------- |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
 
 Sources
 -------
