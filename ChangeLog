@@ -8,8 +8,8 @@
 	* 0.4.0 Beta:
 		- Dropped TYPO3 8.7 compatibility
 		- Version now compatible to TYPO3 10.4 LTS
-2023-06-16
-	* 1.4.0 Stable:
-		- Added privacy statement feature
+2023-07-05
+	* 1.5.0 Stable:
+		- Added DSGVO compliant two-click solution
 		- Dropped TYPO3 9.5 compatibility
 		- Version now compatible to TYPO3 11.5 LTS
