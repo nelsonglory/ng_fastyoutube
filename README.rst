@@ -21,13 +21,7 @@ Installation
 ------------
 
 -  Use composer with composer require phfr/ng_fastyoutube
--  _or_ install the extension through the Extension Manager
-
-Usage
------
-
-Insert a regular Plug-In-Element on a page. Switch to "Plugin"-Tab and choose YouTubeVideo [ng_fastyoutube_pi] 
-from "Selected Plugin"-list.
+-  *or* install the extension through the Extension Manager
 
 Configuration
 -------------
