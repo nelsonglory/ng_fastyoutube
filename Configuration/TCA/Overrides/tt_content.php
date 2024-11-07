@@ -1,5 +1,5 @@
 <?php
-defined('TYPO3_MODE') || die('Access denied.');
+defined('TYPO3') || die('Access denied.');
 
 // plugin signature: <extension key without underscores> '_' <plugin name in lowercase>
 $pluginSignature = 'ngfastyoutube_pi';
