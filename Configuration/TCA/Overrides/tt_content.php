@@ -14,5 +14,6 @@ $GLOBALS['TCA']['tt_content']['types']['list']['subtypes_addlist'][$pluginSignat
 (
     'ng_fastyoutube',
     'Pi',
-    'YouTubeVideo'
+    'YouTubeVideo',
+    'ng_fastyoutube-svg-icon'
     );

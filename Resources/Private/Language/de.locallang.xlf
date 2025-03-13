@@ -4,12 +4,12 @@
 		<header/>
 		<body>
             <trans-unit id="tx_ng_fastyoutube_pi.name">
-                <source>Fast loading YouTube Video</source>
-				<target>Schnell ladendes YouTube Video</target>
+                <source>YouTube video with optional privacy notice</source>
+				<target>YouTube Video mit optionalem Datenschutzhinweis</target>
 			</trans-unit>
 			<trans-unit id="tx_ng_fastyoutube_pi.description">
-                <source>TYPO3 Plugin that displays YouTube-videos faster by loading the video-player on demand while displaying a cacheable preview picture.</source>
-				<target>TYPO3 Plugin, welches die Ladezeiten von YouTube-Videos drastisch verbessert, indem nur ein Vorschaubildchen geladen wird und erst beim Anklicken der eigentliche Video Player.</target>
+                <source>The YouTube player is only loaded after clicking on a preview image, which enables the data protection-compliant integration of YouTube videos.</source>
+				<target>Der YouTube-Player wird erst nach dem Anklicken eines Vorschaubildes geladen, was die datenschutzkonforme Einbindung von YouTube Videos ermöglicht.</target>
 			</trans-unit>
 		
 			<trans-unit id="flexform_general">

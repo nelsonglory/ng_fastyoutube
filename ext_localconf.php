@@ -26,7 +26,7 @@ call_user_func(
             wizards.newContentElement.wizardItems.plugins {
                 elements {
                     pi {
-                        iconIdentifier = ng_fastyoutube-plugin-pi
+                        iconIdentifier = ng_fastyoutube-svg-icon
                         title = LLL:EXT:ng_fastyoutube/Resources/Private/Language/locallang.xlf:tx_ng_fastyoutube_pi.name
                         description = LLL:EXT:ng_fastyoutube/Resources/Private/Language/locallang.xlf:tx_ng_fastyoutube_pi.description
                         tt_content_defValues {
@@ -39,13 +39,5 @@ call_user_func(
             }
        }'
     );
-		$iconRegistry = \TYPO3\CMS\Core\Utility\GeneralUtility::makeInstance(\TYPO3\CMS\Core\Imaging\IconRegistry::class);
-		
-			$iconRegistry->registerIcon(
-				'ng_fastyoutube-plugin-pi',
-				\TYPO3\CMS\Core\Imaging\IconProvider\SvgIconProvider::class,
-				['source' => 'EXT:ng_fastyoutube/Resources/Public/Icons/user_plugin_pi.svg']
-			);
-		
     }
 );
