@@ -15,4 +15,5 @@
 		- Version now compatible to TYPO3 11.5 LTS
 2925-03-13
 	* 1.6.0 Stable:
+		- Dropped TYPO3 10.4 compatibility
 		- Version now compatible to TYPO3 12.4 LTS
