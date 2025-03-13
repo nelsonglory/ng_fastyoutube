@@ -12,7 +12,7 @@ $GLOBALS['TCA']['tt_content']['types']['list']['subtypes_addlist'][$pluginSignat
 
 \TYPO3\CMS\Extbase\Utility\ExtensionUtility::registerPlugin
 (
-    'PHFR.NgFastyoutube',
+    'ng_fastyoutube',
     'Pi',
     'YouTubeVideo'
     );
