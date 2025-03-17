@@ -28,17 +28,20 @@ namespace PHFR\NgFastyoutube\Controller;
 
 use Psr\Http\Message\ResponseInterface;
 use TYPO3\CMS\Core\Utility\GeneralUtility;
+use TYPO3\CMS\Extbase\Mvc\Controller\ActionController;
+use TYPO3\CMS\Core\Page\AssetCollector;
+use TYPO3\CMS\Extbase\Utility\LocalizationUtility;
 
 /**
  * VideoElementController
  */
-class VideoElementController extends \TYPO3\CMS\Extbase\Mvc\Controller\ActionController {
+class VideoElementController extends ActionController {
 
 	/**
 	* init
 	*/
 	public function initializeAction() {
-	    $assetCollector = GeneralUtility::makeInstance(\TYPO3\CMS\Core\Page\AssetCollector::class);
+	    $assetCollector = GeneralUtility::makeInstance(AssetCollector::class);
 	    $assetCollector->addStyleSheet('defaultCSS', 'EXT:ng_fastyoutube/Resources/Public/css/default.css');
 	    $assetCollector->addJavaScript('defaultJS', 'EXT:ng_fastyoutube/Resources/Public/JS/default.js');
 	}
@@ -111,7 +114,7 @@ class VideoElementController extends \TYPO3\CMS\Extbase\Mvc\Controller\ActionCon
 	 * @return string
 	 */
 	private function translate($key) {
-	    $translated =  \TYPO3\CMS\Extbase\Utility\LocalizationUtility::translate($key, $this->request->getControllerExtensionKey());
+	    $translated = LocalizationUtility::translate($key, $this->request->getControllerExtensionKey());
 	    return $translated ? $translated : $key;
 	}
 }
