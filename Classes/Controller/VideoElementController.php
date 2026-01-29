@@ -81,7 +81,7 @@ class VideoElementController extends ActionController {
 				'max-pv-width' => $this->getConfigValue('max-pv-width','string','480'),
 				'data-parms' => $dataParms,
                 'disablePrivStmnt' => $this->getConfigValue('disable_privacy_statement','int',0),
-		        'sysLanguageCode' => $GLOBALS['TSFE']->language->getTwoLetterIsoCode(),
+		        'sysLanguageCode' => $this->request->getAttribute('language')->getTwoLetterIsoCode(),
 		));
 		
 		return $this->htmlResponse();
