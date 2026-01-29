@@ -40,7 +40,7 @@ class VideoElementController extends ActionController {
 	/**
 	* init
 	*/
-	public function initializeAction() {
+    public function initializeAction(): void {
 	    $assetCollector = GeneralUtility::makeInstance(AssetCollector::class);
 	    $assetCollector->addStyleSheet('defaultCSS', 'EXT:ng_fastyoutube/Resources/Public/css/default.css');
 	    $assetCollector->addJavaScript('defaultJS', 'EXT:ng_fastyoutube/Resources/Public/JS/default.js');
