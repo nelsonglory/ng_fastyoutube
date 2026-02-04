@@ -19,5 +19,5 @@
 		- Version now compatible to TYPO3 12.4 LTS
 2026-02-04
 	* 1.7.0 Stable:
-		- Dropped TYPO3 11.5 compatibility
-		- Version now compatible to TYPO3 12.4 & 13.4 LTS
+		- Dropped TYPO3 11.5 & 12.4 compatibility
+		- Version now compatible to TYPO3 13.4 LTS
