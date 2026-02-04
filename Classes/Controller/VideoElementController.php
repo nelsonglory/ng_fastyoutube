@@ -1,4 +1,7 @@
 <?php
+
+declare(strict_types=1);
+
 namespace PHFR\NgFastyoutube\Controller;
 
 /***************************************************************
@@ -94,7 +97,7 @@ class VideoElementController extends ActionController {
 	 * @param string $defaultValue
 	 * @return string
 	 */
-	private function getConfigValue($configVar,$type='string',$defaultValue='') {
+	private function getConfigValue(string $configVar,string $type='string',mixed $defaultValue=''): mixed {
 		// retrieve config values given by flexform with respect of types, fallback on typoscript values or default
 		$configValue = null;
 	    if (!empty($this->settings['flexform'][$configVar])) {
@@ -113,8 +116,8 @@ class VideoElementController extends ActionController {
 	 * @param string $key
 	 * @return string
 	 */
-	private function translate($key) {
+	private function translate(string $key): string {
 	    $translated = LocalizationUtility::translate($key, $this->request->getControllerExtensionKey());
-	    return $translated ? $translated : $key;
+	    return empty($translated) ? $key : $translated;
 	}
 }
