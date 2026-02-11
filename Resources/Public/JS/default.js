@@ -164,4 +164,6 @@ showYoutubePreviews(function(){
 			});
 		}	
     }
+	// send fire resize event to re-calculate window height
+	window.dispatchEvent(new Event('resize'));
 });
